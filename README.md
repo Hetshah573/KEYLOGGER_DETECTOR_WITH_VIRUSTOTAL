@@ -1,1 +1,1 @@
-
+A Python-based tool that scans running processes for potential keylogger activity using both static heuristics (import scanning and YARA rules) and online threat intelligence (VirusTotal). It identifies suspicious processes by checking for known keyboard-hook APIs in executables, matching custom YARA rules, verifying file hashes against VirusTotal.
